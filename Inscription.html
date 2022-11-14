@@ -1,0 +1,48 @@
+<html>
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Inscription</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"></head>
+    <body>
+    <form>
+        <div class="s'inscrire">
+            <center><h1>Inscrivez-vous</h1></center>
+                <form action="/page-traitement-donnees" method="post">
+                    <div class="inputs">
+                        <div>
+                            <label for="nom"></label>
+                            <input type="nom" id="nom" name="nom" placeholder="votre nom" required>
+                                <label for="prenom"></label>
+                                <input type="prenom" id="prenom" name="prenom" placeholder="votre prenom" required>
+                        </div>
+                                <div>
+                                    <label for="email"></label>
+                                    <input type="email" id="email" name="email" placeholder="monadresse@enc-bessieres.org" required>
+                                            <label for="NUMEN"></label>
+                                            <input type="text" id="NUMEN" name="NUMEN" placeholder="Identifiant NUMEN" required>
+                                </div>
+                                    <div>
+                                        <label for="telephone"></label>
+                                        <input type="tel" id="telephone" name="telephone" placeholder="Numéro de téléphone" required>
+                                                <label for="username"></label>
+                                                <input type="username" id="username" name="username"placeholder="Login">
+                                    </div>
+                                                <div>
+                                                    <label for="password"></label>
+                                                    <input type="password" placeholder="Mot de passe">
+                                                        <label for="password"></label>
+                                                        <input type="password" placeholder="Confirmation du Mot de passe">
+                                                </div>
+                    </div>
+                    
+                    <div align="center">
+                        <button type="submit"> VALIDER </button>
+                    </div>
+
+            
+                </form>
+        </div>
+    </form>
+    </body>
+</html>
